@@ -17,7 +17,7 @@ env:
 
 jobs:
   run_42c_scan:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     permissions:
      contents: read # for actions/checkout to fetch code
      security-events: write # for results upload to Github Code Scanning
