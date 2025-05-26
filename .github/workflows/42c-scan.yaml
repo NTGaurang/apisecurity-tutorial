@@ -73,7 +73,7 @@ jobs:
             if-no-files-found: error
       - name: save-scan-report
         if: always()        
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: 42Crunch_ScanReport_${{ github.run_id }}
             path: 42Crunch_RawReport_${{ github.run_id }}.json
