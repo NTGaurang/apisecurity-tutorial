@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-      - name: Audit API definition for security issues
+      - name: Audit API definition for Security issues
         uses: 42Crunch/api-security-audit-action-freemium@v1
         with:
           # Upload results to Github Code Scanning

@@ -12,7 +12,7 @@ paths:
       tags:
         - weather
       description: You can call by city name or city name and country code. API
-        responds with a list of results that match a searching word.
+        responds with list of results that match a searching word.
       operationId: GetWeatherByCityName
       parameters:
         - name: q

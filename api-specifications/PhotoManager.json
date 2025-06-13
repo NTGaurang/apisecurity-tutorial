@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Photo Manager",
-    "description": "Photo Manager API (aka Pixi)",
+    "description": "Photo Manager API (Pixi)",
     "contact": {
       "email": "support@42crunch.com"
     },
